@@ -55,7 +55,7 @@ export default function HomeScreen({ navigation }) {
       >
         <View style={styles.headerContent}>
           <View style={styles.headerTextContainer}>
-            <Text style={styles.title}>✨ Bienvenue{user ? `, ${user.name}` : ''} !</Text>
+            <Text style={styles.title}>Location Costumes</Text>
             <Text style={styles.subtitle}>
               {user
                 ? user.role === 'admin'

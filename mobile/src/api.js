@@ -3,7 +3,7 @@ import * as SecureStore from 'expo-secure-store';
 
 // API Configuration
 const API_BASE_URL = __DEV__ 
-  ? 'http://10.104.171.222:8000/api/v1'
+  ? 'http://192.168.100.10:8000/api/v1'
   : 'https://your-production-api.com/api/v1';
 const api = axios.create({
   baseURL: API_BASE_URL,

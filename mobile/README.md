@@ -16,10 +16,7 @@ Application React Native développée avec Expo pour la consultation et la locat
 mobile/
 ├── App.js                 # Point d'entrée de l'application
 ├── src/
-│   ├── config/
-│   │   └── api.js        # Configuration de l'API
-│   ├── services/
-│   │   └── api.js        # Services API
+│   └── api.js            # Configuration + services API
 │   └── screens/
 │       ├── HomeScreen.js
 │       ├── CostumeListScreen.js
@@ -36,7 +33,7 @@ npx expo start
 
 ## Configuration API
 
-Modifiez `src/config/api.js` pour pointer vers votre API Laravel.
+Modifiez `src/api.js` pour pointer vers votre API Laravel.
 
 Pour un appareil physique, utilisez l'adresse IP locale de votre machine au lieu de `localhost`.
 

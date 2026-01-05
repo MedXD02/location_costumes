@@ -32,7 +32,7 @@ backend/
 
 ## Installation
 
-Voir le fichier `../INSTALLATION.md` pour les instructions complètes.
+Voir le `README.md` à la racine du projet pour les instructions complètes.
 
 ## Endpoints
 

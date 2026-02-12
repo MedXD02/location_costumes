@@ -74,8 +74,3 @@ Préfixe : `/api/v1`
 - Costumes : `GET /costumes`, `GET /costumes/{id}`, `GET /costumes/categories`
 - Locations : `GET /rentals`, `POST /rentals`, `PATCH /rentals/{id}/cancel`
 
----
-
-Docs spécifiques :
-- Backend : `backend/README.md`
-- Mobile : `mobile/README.md`
